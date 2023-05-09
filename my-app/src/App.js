@@ -3,6 +3,9 @@ import css from './App.module.css';
 // import NavBarSimple from './components/NavBarSimple';
 // import NavBarForm from './components/NavBarForm';
 import Content from './components/Content';
+// import ControlledForm from './components/ControlledForm';
+// import UncontrolledForm from './components/UncontrolledForm';
+import SearchBar from './components/SearchBar';
 
 
 function App() {
@@ -13,6 +16,9 @@ function App() {
       {/* <NavBarSimple/> */}
       {/* <NavBarForm/> */}
       <Content/>
+      {/* <ControlledForm/> */}
+      {/* <UncontrolledForm/> */}
+      {/* <SearchBar/> */}
     </div>
   );
 }
