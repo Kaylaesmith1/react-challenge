@@ -2,10 +2,11 @@ import css from './App.module.css';
 // import Sidebar from './components/Sidebar';
 // import NavBarSimple from './components/NavBarSimple';
 // import NavBarForm from './components/NavBarForm';
-import Content from './components/Content';
+// import Content from './components/Content';
 // import ControlledForm from './components/ControlledForm';
 // import UncontrolledForm from './components/UncontrolledForm';
-import SearchBar from './components/SearchBar';
+// import SearchBar from './components/SearchBar';
+import ControlledHooks from './components/ControlledHooks';
 
 
 function App() {
@@ -15,10 +16,11 @@ function App() {
       {/* <Sidebar/> */}
       {/* <NavBarSimple/> */}
       {/* <NavBarForm/> */}
-      <Content/>
+      {/* <Content/> */}
       {/* <ControlledForm/> */}
       {/* <UncontrolledForm/> */}
       {/* <SearchBar/> */}
+      <ControlledHooks/>
     </div>
   );
 }
