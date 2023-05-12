@@ -6,7 +6,12 @@ import css from './App.module.css';
 // import ControlledForm from './components/ControlledForm';
 // import UncontrolledForm from './components/UncontrolledForm';
 // import SearchBar from './components/SearchBar';
-import ControlledHooks from './components/ControlledHooks';
+// import ControlledHooks from './components/ControlledHooks';
+// import UseStateArrays from './components/UseStateArrays';
+// import UseStatewObjects from './components/UseStatewObjects';
+// import UseEffectCounter from './components/UseEffectCounter';
+// import UseEffectCounterContainer from './components/UseEffectCounterContainer';
+import ContentHooks from './components/ContentHooks';
 
 
 function App() {
@@ -20,7 +25,12 @@ function App() {
       {/* <ControlledForm/> */}
       {/* <UncontrolledForm/> */}
       {/* <SearchBar/> */}
-      <ControlledHooks/>
+      {/* <ControlledHooks/> */}
+      {/* <UseStateArrays/> */}
+      {/* <UseStatewObjects/> */}
+      {/* <UseEffectCounter/> */}
+      {/* <UseEffectCounterContainer/> */}
+      <ContentHooks/>
     </div>
   );
 }
