@@ -11,7 +11,9 @@ import css from './App.module.css';
 // import UseStatewObjects from './components/UseStatewObjects';
 // import UseEffectCounter from './components/UseEffectCounter';
 // import UseEffectCounterContainer from './components/UseEffectCounterContainer';
-import ContentHooks from './components/ContentHooks';
+// import ContentHooks from './components/ContentHooks';
+// import HTTPRequests from './components/HTTPRequests';
+import HTTPPost from './components/HTTPPost';
 
 
 function App() {
@@ -30,7 +32,9 @@ function App() {
       {/* <UseStatewObjects/> */}
       {/* <UseEffectCounter/> */}
       {/* <UseEffectCounterContainer/> */}
-      <ContentHooks/>
+      {/* <ContentHooks/> */}
+      {/* <HTTPRequests/> */}
+      <HTTPPost/>
     </div>
   );
 }
