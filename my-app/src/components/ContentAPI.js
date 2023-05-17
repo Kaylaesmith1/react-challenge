@@ -65,7 +65,7 @@ export class Content extends Component {
             </div>
 
             <div className={css.SearchResults}> 
-            {this.state.isLoaded ? <PostItemAPI savedPosts={savedPosts}/> : <Loader/>}
+            {this.state.isLoaded ? <PostItemAPI savedPosts={this.state.posts}/> : <Loader/>}
         </div>
       </div>
     )

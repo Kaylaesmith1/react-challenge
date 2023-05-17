@@ -1,7 +1,7 @@
 import css from './App.module.css';
-// import Sidebar from './components/Sidebar';
+import Sidebar from './components/Sidebar';
 // import NavBarSimple from './components/NavBarSimple';
-// import NavBarForm from './components/NavBarForm';
+import NavBarForm from './components/NavBarForm';
 // import Content from './components/Content';
 // import ControlledForm from './components/ControlledForm';
 // import UncontrolledForm from './components/UncontrolledForm';
@@ -13,16 +13,19 @@ import css from './App.module.css';
 // import UseEffectCounterContainer from './components/UseEffectCounterContainer';
 // import ContentHooks from './components/ContentHooks';
 // import HTTPRequests from './components/HTTPRequests';
-import HTTPPost from './components/HTTPPost';
+// import HTTPPost from './components/HTTPPost';
+// import ContentAPI from './components/ContentAPI';
+// import HTTPHooks from './components/HTTPHooks';
+import ContentAPIHooks from './components/ContentAPIHooks';
 
 
 function App() {
   return (
     <div className={css.App}>
       {/* Add your components here */}
-      {/* <Sidebar/> */}
+      <Sidebar/>
       {/* <NavBarSimple/> */}
-      {/* <NavBarForm/> */}
+      <NavBarForm/>
       {/* <Content/> */}
       {/* <ControlledForm/> */}
       {/* <UncontrolledForm/> */}
@@ -34,7 +37,10 @@ function App() {
       {/* <UseEffectCounterContainer/> */}
       {/* <ContentHooks/> */}
       {/* <HTTPRequests/> */}
-      <HTTPPost/>
+      {/* <HTTPPost/> */}
+      {/* <ContentAPI/> */}
+      {/* <HTTPHooks/> */}
+      <ContentAPIHooks/>
     </div>
   );
 }
